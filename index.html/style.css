@@ -1,0 +1,106 @@
+
+/*mobile*/
+*{font-family: 'Fira Sans', sans-serif;}
+.bold{font-weight:300;}
+.italic{font-style: italic;}
+.oblique{font-style: oblique;}
+
+body,html{
+  font-size:100%;
+  font-family: fira sans, sans-serif;
+}
+
+body,html{
+  margin:0;
+  padding: 0;
+  background: #F0ECEE;
+}
+
+nav ul{
+  list-style: none;
+  padding:0;
+  background: #F0ECEE;
+}
+
+nav ul li a {
+  color: #88898B;
+  text-decoration:none;
+  display:block;
+}
+
+nav div:first-child{
+  background: #F0ECEE;
+}
+
+.color {
+  color: #FF4850;
+}
+
+  li a {
+  display: block;
+  color: #CCC;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:#FF4850;
+}
+
+.item-3 {
+  color: #88898B;
+}
+
+h2{
+    font-weight:600;
+
+}
+.button{
+  background-color: #FF4850;
+  border-radius: 15px;
+  padding: 10px 24px;
+  text-align:center;
+  Color: white;
+  width:100%
+}
+
+button:hover{
+  background-color:#CCC
+}
+
+
+@media only screen and (min-width: 769px) {
+body{
+  background: url("bulldog.jpg") no-repeat center;
+  background-size: cover;
+  width: auto;
+}
+
+/*desktop*/
+
+
+@media only screen and (min-width:768px){
+  .topnav{
+    display:flex;
+    background: #F0ECEE;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 7px;
+}
+
+nav ul{
+    display: inline-flex;
+    align-items: center;
+    -ms-align-items:center;
+    text-align:center;
+    justify-content: space-between;
+}
+
+ .item-2{
+      font-weight:600;
+}
+
+.button{
+  width:auto;
+}
