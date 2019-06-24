@@ -54,8 +54,8 @@ li a:hover {
 
 h2{
     font-weight:600;
-
 }
+
 .button{
   background-color: #FF4850;
   border-radius: 15px;
@@ -66,7 +66,8 @@ h2{
 }
 
 button:hover{
-  background-color:#CCC
+  background-color:#CCC;
+  color:#FF4850;
 }
 
 
@@ -99,8 +100,13 @@ nav ul{
 
  .item-2{
       font-weight:600;
+
 }
 
 .button{
   width:auto;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
